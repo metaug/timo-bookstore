@@ -1,0 +1,86 @@
+css
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+font-family:Arial,san-serif;
+background: blue;
+}
+nav{
+backgroud:white;
+color:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 30px;
+}
+
+nav ui{
+list-style:none;
+display:flex;
+}
+nav ui li {
+margin-left:20px
+}
+nav ui li a{
+color:white;
+text-decoration:none;
+}
+
+.banner{
+background:url('https://images.unsplash.com/photo-1524995997-a1c2e315a42f');
+background-sise:cover;
+background-position:center;
+height:350px;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+ 
+ color:white;
+ text-align:center;
+ }
+ banner h1{
+ font-size:50px
+ }
+ banner p{
+ font-sise:20px
+ }
+ search-box{
+ text-align:center;
+ margin:20px
+ }
+ search-box imput{
+ width:60%;
+ padding:12px;
+ font-size:16px;
+ }
+ book {
+ display:flex;
+ justify-content:center;
+ flex-wrap:wrap;
+ gap:20px;
+ padding:20px;
+ }
+book button{
+background:blue;
+color:orange;
+border:none;
+padding:10px 20px;
+border-radius:15px;
+}
+book button:hover{
+background:green;
+}
+#cart{
+background:white;
+margin:20px;
+padding:20px
+border-radius:10px
+}
+#cart-item li{
+margin:10px 0;
+}

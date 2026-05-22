@@ -1,0 +1,93 @@
+<! doctype html>
+<html lang ='EN'>
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+content="width=device-width,
+initail-scale=1.0">
+<title>Bookstore</title>
+<!-- custom css-->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navigation Bar-->
+<nav>
+<div class"log">MY BOOKSTORE</div>
+<ui>
+<li><a href="#">home</a></li>
+<li><a href="#book">books</a></li>
+<li><a href="#cart">cart</a></li>
+</ui>
+</nav>
+<!--banner-->
+<section class="banner">
+<h1><b> WELCOME TO ONLINE BOOKSTORE</h1></b>
+<p> Discover the best books online </p>
+</section>
+<!-- search-->
+<div class="search-box">
+ <input type="text" 
+ id="search"
+ placeholder="search books by title or author"
+ </div>
+ <!--FEATURED BOOKS-->
+ <section class=id"books">
+ <div class="book-list">
+ <!--book 1-->
+ <div claas="book">
+ <div class="card h-100">
+ <h2> <u> BOOK STORE 1 </h2></U>
+ <img src ="jr.jpg" style="width:400" height="500">
+<h5>JAVA PROGRAMMING</h5>
+Author:JAMES SSEBAGALA </p>
+<p>$20</P>
+<button class="add-to-cart"
+data-name="java programming"
+data-price="20">
+Add to cart
+</button>
+</div>
+</div>
+<!--book 2-->
+<div class="book">
+<h2><u>BOOK STORE 2</h2></U>
+<img
+src= "gl.jpg" width="300" height="400" alt="gl">
+<h5>HTML& CSS</h5>
+Author:JOHN KISEEKA</p>
+<p>$15</P>
+<Button class="add-to-cart"
+data-title="HTML & CSS "
+dat-price="15">
+Add to cart
+</button>
+</div>
+<!--book 3-->
+<div class="book">
+<h1><u>BOOKSTORE 3 <h1></u>
+<img
+src="mon.jpg"  alt="mon" width="400"height="400">
+<h5>javascript Guide</h5>
+Author:BRENDAN NAKIMULI</p>
+<p>$25</p>
+<button class="add-to-cart"
+data-name="javascript Guide"
+data-price="25">
+Add to cart
+</button>
+</div>
+</div>
+</section>
+<!--shopping cart -->
+<section id="cart">
+<h2>shopping cart</h2>
+<ui id="cart-items"></ui>
+<h3> Total:$<span id="total">0</span></h3>
+</section>
+<footer >
+<p>online Bookstore @ 2026</P>
+</footer>
+</script>
+<script src="script.js"></script>
+</body>
+</html>
